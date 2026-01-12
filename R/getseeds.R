@@ -3,7 +3,7 @@
 #' @param N No. runs
 #' @param seed Starting seed
 #' @return List of N sets of 7 seeds
-#' @importFrom parallel nextRNGStream nextRNGSubStream
+#' @importFrom parallel nextRNGStream
 #' 
 
 getseeds <- function(

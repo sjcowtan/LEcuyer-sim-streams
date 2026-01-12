@@ -2,4 +2,3 @@
 
 export(batch)
 importFrom(parallel,nextRNGStream)
-importFrom(parallel,nextRNGSubStream)
