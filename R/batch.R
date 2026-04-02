@@ -45,7 +45,8 @@ batch <- function(
     assign(
       x = ".Random.seed", 
       value = seeds[[i]],
-      envir = as.environment(-1)
+      envir = as.environment(-1),
+      inherits = TRUE
     )
     print(.Random.seed)
 
